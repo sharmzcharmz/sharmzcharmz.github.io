@@ -1,0 +1,1760 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+
+@media (min-width: 992px){ /*this is the start of min-width 992px max-width 1440px aka lg forms*/
+
+body {
+	color: #230871;
+	font-family: Nunito Sans, sans-serif;
+}
+
+.navbar-brand>img {
+	width: 170px;
+	padding-left: 40px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #230871;
+	font-family: Nunito Sans, sans-serif;
+	font-size: 24px;
+}
+
+div.form-group{
+	width:168px;
+}
+
+.form-control.search-btn{
+	text-rendering: auto;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 0;
+    padding-left: 13px;
+    margin-right: 0;
+    font-size: 24px;
+    line-height: 0;
+    color: #230871;
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #ccc;
+    border-radius: 0px
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-control.search-btn::placeholder{
+	color: #230871;
+	opacity:0.35;
+}
+
+.navbar-custom.navbar.navbar-default.navbar-fixed-top.text-center{
+	margin-top:5px;
+}
+
+.navbar-custom {
+    border: 0px solid #ccc;
+    border-radius: 0px
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+    color: transparent;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover .navbar-nav>li>a:focus{
+	color: #F189DF;
+}
+
+.form-control.join-btn{
+	text-rendering: auto;
+  	text-align: left;
+    display: block;
+    width: 305px;
+    height: 34px;
+    padding-left: 15px;
+    margin-right: 0;
+    font-size: 18px;
+    line-height: 0;
+    color: #230871;
+    background-color: transparent;
+    background-image: none;
+    border: 0px;
+    border-color: #230871;
+    border-radius: 20px;
+    -webkit-box-shadow: inset 1 1px -0.5px rgba(0,0,0,.075);
+    box-shadow: inset 1 1px -0.5px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-control.join-btn::placeholder{
+	color: #230871;
+	opacity:0.35;
+}
+
+
+li img.cart-btn{
+	width:410px;
+	padding-top:38px;
+	padding-left: 387px;
+}
+
+li a.view-cart{
+	display:none;
+}
+
+
+.pt22{
+	padding-top: 22px;	
+}
+
+.pt50{
+	padding-top: 50px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	padding-left:0;
+	padding-right: 0;
+}
+
+.jumbotron-landing{
+	background-image: url(img/hazael-bag-jumping-xs.jpg);
+    background-repeat: no-repeat;
+	background-position-x: -450px;
+    background-position-y: -450px;
+    background-size: 150%;
+    height:629px; 
+	padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+
+.jumbotron-landing.bag-feature{
+	background-image: url(img/sherman-hill-lg.jpg);
+	background-position-x: -50px;
+    background-position-y: -360px;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    height:387px; 
+    margin: 0 auto;
+}
+
+.jumbo-cover-xs2{
+	padding-left: 55px;
+}
+
+div.landing-texts{
+	padding-top:168px;
+	padding-left: 137px;	
+}
+
+div.landing-texts2{
+	padding-left: 137px;	
+	padding-top: 50px;	
+}
+
+h1.landing-title{
+    font-size: 30px;
+	color: #F189DF;
+	font-weight:800;
+	padding-bottom: 0px;
+	text-shadow: 1px 1.1px #230871;
+}
+p.landing-para{
+	color: white;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+h1.bags-title{
+    font-size: 30px;
+	color: #230871;
+	font-weight:800;
+	text-shadow: 1px 1.1px #eee;
+}
+p.bags-para{
+	color: #F189DF;
+	font-size: 24px;
+	font-weight: 400;
+	width: 470px;
+}
+
+p a.btn.btn-primary.btn-lg.btn-learn{
+	background-color: #F189DF;
+	border:0;
+	border-radius: 20px;
+	font-size: 15px;
+	font-weight: 800;
+	color: #230871;
+	padding-left: 20px;
+    width: 138px;
+    padding-right: 20px;
+}
+
+
+p a.btn.btn-primary.btn-lg.btn-read{
+	background-color: #230871;
+	border:0;
+	border-radius: 20px;
+	font-size: 15px;
+	font-weight: 800;
+	color: white;
+	padding-left: 20px;
+    width: 118px;
+    padding-right: 20px;
+}
+
+h2.footer-heads{
+    font-size: 18px;
+	color: #230871;
+	font-weight:800;
+	padding-bottom: 10px;
+}
+
+p.footer-subheads{
+	color: #230871;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.container-fluid.footer-bottom{
+	padding-left: 282px;
+    background-color: #fff;
+    padding-bottom: 45px;
+}
+
+img.logo-brand{
+	width: 90px;
+	padding-top: 45px;
+}
+
+div.col-lg-2.need-help-col{
+	width: 156px;
+	padding-left: 76px;
+	padding-top: 22px;
+}
+
+div.col-lg-3.about-kanken-igen{
+	width: 265px;
+	padding-left: 95px;
+	padding-top: 22px;
+}
+
+div.col-lg-5.join-newsletter{
+	width:568px;
+	padding-left: 89px;
+	padding-top: 22px;
+}
+
+div.icon img{
+	height:41px;
+	padding-top:10px;
+}
+
+.col-lg-2.icon {
+    width: 15%;
+}
+
+.social-media-handle{
+	padding-top: 13px;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.help-icon,li a.help-xs{
+	display: none;
+}
+
+.jumbotron-shop{
+	background-image: url(img/hazael-bag-sit.jpg);
+	background-position-x: left;
+    background-position-y: -95px;
+    background-size: 110%;
+    height:650px; 
+    margin: 0 auto;
+}
+
+li .shop-head{
+	text-decoration-line: underline;
+	font-weight:bold;
+}
+
+li .about-head{
+	text-decoration-line: underline;
+	font-weight:bold;
+}
+
+li .browse-head{
+	text-decoration-line: underline;
+	font-weight:bold;
+}
+
+div.shop-texts{
+	padding-top:140px;
+	padding-left: 875px;
+	width: 1000px;
+}
+
+
+h1.shop-title{
+    font-size: 30px;
+	color: #230871;
+	font-weight:800;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	width: 531px;
+	text-shadow: 1px 1.1px #230871;
+}
+p.shop-para{
+	width:424px;
+	color: white;
+	padding-bottom: 5px;
+	margin-bottom: 0;
+	font-size: 24px;
+	font-weight: 400;
+	padding-left: 0px;
+	text-shadow: 1px 1.1px #230871;
+}
+
+
+p a.btn.btn-primary.btn-lg.btn-shop-now{
+	background-color: #230871;
+	border:0;
+	border-radius: 20px;
+	font-size: 15px;
+	font-weight: 800;
+	color: #F189DF;
+    height: 43px;
+}
+
+.btn-shop-now-gap-lg{
+	display: none;
+}
+
+.btn-shop-now{
+    margin-left: 0px;
+    margin-top: 8px;
+}
+
+div.featured-items{
+	margin-top: 17px;
+	padding-right: 0px;
+}
+
+div.colours-of-month-parent{
+	width:500px;
+}
+
+h1.colours-title{
+    font-size: 35px;
+	color: #230871;
+	font-weight:800;
+	padding-left: 0;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	margin-left: 110px;
+}
+
+div.colours-of-month-boxes{
+	padding-left: 0;
+	margin-top: 8px;
+	margin-left: 37px;
+	background-image: url(img/colours-month-180pp.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+    width:500px;
+    height:320px;
+}
+
+div.mix-n-matcher{
+	padding-left: 0;
+	margin-top: 37px;
+	margin-bottom: 8px;
+	margin-left: 92px;
+	background-image: url(img/pic-bag-shop-shapes.jpg);
+	background-repeat: no-repeat;
+	background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+    width:833px;
+    height:366px;
+}
+
+div.mixer-texts{
+	padding-top:70px;
+	padding-left: 353px;	
+}
+
+
+h1.mixer-title{
+    font-size: 35px;
+	color: #F189DF;
+	font-weight:800;
+	margin-top: 0px;
+	padding-bottom: 10px;
+	width:475px;
+	text-shadow: 1px 1.1px #230871;
+}
+p.mixer-para{
+	width:450px;
+	color: white;
+	padding-bottom: 0px;
+	font-size: 24px;
+	font-weight: 400;
+	padding-left: 0px;
+}
+
+p a.btn.btn-primary.btn-lg.btn-mixer{
+	background-color: #F189DF;
+	border:0;
+	border-radius: 20px;
+	font-size: 15px;
+	font-weight: 800;
+	color: #230871;
+}
+
+.btn-mixer{
+	margin-top: 17px;
+    margin-left: 0px;
+    width:80px;
+}
+
+p.mixer-para2{
+	margin-top: 0px;
+}
+
+.jumbotron-about{
+	background-image: url(img/christy-jump-100.jpg);
+	background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+    height:550px; 
+    margin: 0 auto;
+}
+
+div.about-texts{
+	padding-top:93px;
+	padding-left: 840px;	
+	width: 700px;
+}
+
+h1.about-title{
+    font-size: 30px;
+	color: #F189DF;
+	font-weight:800;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	width: 450px;
+	text-shadow: 1px 1.1px #230871;
+}
+
+p.about-para{
+	width:445px;
+	color: #230871;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+	font-size: 18px;
+	font-weight: 400;
+	padding-left: 0px;
+	text-shadow: 1px 1.1px #eee;
+}
+
+p.about-para-xs{
+	display: none;
+}
+
+.jumbotron-mission{
+	background-image: url(img/hazael-bag-jumping-100.jpg);
+	background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+    height:500px; 
+    margin: 0 auto;
+}
+
+div.mission-texts{
+	padding-top:24px;
+	padding-left: 42px;	
+	width: 700px;
+}
+
+h1.mission-title{
+    font-size: 30px;
+	color: #230871;
+	font-weight:800;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	width: 950px;
+	text-shadow: 1px 1.1px #eee;
+}
+
+p.mission-para{
+	width:445px;
+	color: #230871;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+	font-size: 18px;
+	font-weight: 400;
+	padding-left: 0px;
+	text-shadow: 1px 1.1px #eee;
+}
+
+p.mission-para-xs{
+	display: none;
+}
+
+.jumbotron-sustainability{
+	background-image: url(img/scenery-100.jpg);
+	background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+    height:500px; 
+    margin: 0 auto;
+}
+
+div.sustainability-texts{
+	padding-top:24px;
+	padding-left: 37px;	
+	width: 1200px;
+}
+
+h1.sustainability-title{
+    font-size: 30px;
+	color: #F189DF;
+	font-weight:800;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	width: 1342px;
+	text-shadow: 1px 1.1px #eee;
+	text-align: center;
+}
+
+p.sustainability-para{
+	width:460px;
+	color: #230871;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+	font-size: 18px;
+	font-weight: 400;
+	padding-left: 0px;
+	text-shadow: 1px 1.1px #eee;
+}
+
+p.sustainability-bump.sustainability-para{
+	padding-left: 50px;
+}
+
+p.sustainability-para-xs{
+	display: none;
+}
+
+ol.carousel-indicators{
+	visibility: hidden;
+}
+
+div.browse-book{
+	padding: 0 !important; 
+	margin: 0 !important;
+	
+}
+
+div.item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.item:before {
+  content: "";
+  display: block;
+  padding-bottom: 56.25%; /* example */
+}
+
+div.carousel-s{
+	display: none;
+}
+
+div.carousel-xs{
+	display: none;
+}
+
+} /*this is the end of min-width 994px max-width 1440px aka lg forms*/
+
+/*-----*/
+/*-----*/
+/*-----*/
+/*-----*/
+/*-----*/
+
+@media (max-width:414px){ /*this is the start of max-width 414px aka XS forms*/
+
+body {
+	color: #230871;
+	font-family: Nunito Sans, sans-serif;
+}
+
+.navbar-brand>img {
+	width: 90px;
+	padding-left: 0px;
+	padding-bottom: 80px;
+}
+
+div.navbar{
+	width: 440px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+div.row.resize-xs{
+	width:375px;
+}
+
+element.style {
+    bottom: 65px;
+}
+
+.navbar-default .navbar-nav>li>a.help-xs {
+	padding-left: 60px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+	color: #F189DF;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.navbar-default .navbar-nav>li>a.help-xs:hover{
+	color: grey;
+	text-decoration-line:underline;
+	font-style: italic;
+}
+
+.help-icon{
+	width: 15px;
+    padding-left: 3px;
+}
+
+.jumbotron-landing{
+	background-image: url(img/hazael-bag-sit-xs.jpg);
+	background-position-x: 0px;
+    background-position-y: -40px;
+    background-size: 300%;
+    height:500px; 
+    margin: 0 auto;
+}
+
+.jumbotron-landing.bag-feature{
+	background-image: url(img/sherman-hill-xs.jpg);
+	background-position-x: -340px;
+    background-position-y: -850px;
+    background-size: 270%;
+    height:350px; 
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+div .container-fluid.jumbo-cover-xs{
+	padding-left: 38px;
+}
+
+div .container-fluid.jumbo-cover-xs2{
+    padding-left: 150px;
+    padding-right: 33px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: transparent;
+}
+
+.navbar-default{
+	background-color: #fff;
+}
+
+div.landing-texts{
+	padding-top:160px;	
+}
+
+div.landing-texts2{
+	padding-top:22px;	
+}
+
+
+h1.landing-title{
+    font-size: 27px;
+	color: #F189DF;
+	font-weight:800;
+	padding-bottom: 5px;
+	padding-left: 0;
+	width:215px;
+}
+p.landing-para{
+	color: white;
+	padding-bottom: 5px;
+	font-size: 15px;
+	font-weight: 400;
+	padding-left: 0;
+
+}
+
+h1.bags-title{
+    font-size: 27px;
+	color: #230871;
+	font-weight:800;
+	padding-bottom: 5px;
+	padding-left: 0;
+	width:215px;
+}
+p.bags-para{
+	color: #F189DF;
+	padding-bottom: 5px;
+	font-size: 15px;
+	font-weight: 400;
+	padding-left: 0;
+
+}
+
+p a.btn.btn-primary.btn-lg.btn-learn{
+	background-color: #F189DF;
+	border:0;
+	border-radius: 40px;
+	font-size: 10px;
+	font-weight: 800;
+	color: #230871;
+}
+
+p a.btn.btn-primary.btn-lg.btn-read{
+	background-color: #230871;
+	border:0;
+	border-radius: 40px;
+	font-size: 10px;
+	font-weight: 800;
+	color: white;
+}
+
+a.xs-center{
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-bottom: 15px;
+}
+
+li a.divider{
+	display:none;
+}
+
+img.hide-xs{
+	display:none;
+}
+
+div.navbar-header{
+	height: 109px;
+}
+
+.navbar-toggle.collapsed{
+	margin-top: 27px;
+}
+
+.navbar-toggle{
+	margin-top: 37px;
+	margin-right: 30px;
+}
+
+.navbar-form{
+    padding: 0;
+    margin: 0;
+}
+
+ul.pt50.nav.navbar-nav{
+    padding-top: 0px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+div.form-group{
+	width:414px;
+}
+
+.form-control.search-btn{
+	text-rendering: auto;
+  	text-align: center;
+    display: block;
+    width: 350px;
+    height: 34px;
+    padding: 0;
+    margin-right: 0;
+    font-size: 18px;
+    line-height: 0;
+    color: #230871;
+    background-color: transparent;
+    background-image: none;
+    border: 0px;
+    border-color: #230871;
+    border-radius: 40px;
+    -webkit-box-shadow: inset 1 1px -0.5px rgba(0,0,0,.075);
+    box-shadow: inset 1 1px -0.5px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-control.search-btn::placeholder{
+	color: #230871;
+	opacity:0.35;
+}
+
+.pt50.navbar-form.navbar-left.col-lg-2.col-xs-12{
+	padding-left:35px;
+}
+
+.navbar-custom {
+    border: 0px solid #ccc;
+    border-radius: 0px
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #230871;
+	font-size: 18px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #F189DF;
+}
+
+.navbar-default .navbar-nav>li>a.view-cart:hover{
+	color: #F189DF;
+	text-decoration-line:underline;
+}
+
+li img.cart-btn{
+	display: none;
+}
+
+li a.view-cart{
+	padding-left: 60px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+	font-weight: bold;
+}
+
+form.pt50.navbar-form.navbar-left.col-xs-7{
+	margin-left: 65px;
+}
+
+footer{
+	display: none;
+}
+
+.col-lg-1,.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12{
+	padding-left:0;
+	padding-right: 0;
+}
+
+
+.jumbotron-shop{
+	background-image: url(img/hazael-bag-sit.jpg);
+	background-repeat: no-repeat;
+	background-position-x: center;
+    background-position-y: 80px;
+    background-size: 140%;
+    width: 414px;
+    height:375px; 
+    margin: 0 auto;
+}
+
+li .shop-head{
+	text-decoration-line: underline;
+	font-weight:bold;
+}
+
+li .about-head{
+	text-decoration-line: underline;
+	font-weight:bold;
+}
+
+li .browse-head{
+	text-decoration-line: underline;
+	font-weight:bold;
+}
+
+div.shop-texts{
+	padding-top:132px;
+	padding-left: 130px;
+	height:550px;	
+}
+
+
+h1.shop-title{
+    font-size: 18px;
+	color: #F189DF;
+	font-weight:800;
+	margin-top: 0px;
+	width: 190px;
+	text-shadow: 1px 1.1px #230871;
+}
+p.shop-para{
+	width:200px;
+	color: white;
+	padding-bottom: 5px;
+	margin-bottom: 0;
+	font-size: 15px;
+	font-weight: 400;
+	padding-left: 0px;
+}
+
+p a.btn.btn-primary.btn-lg.btn-shop-now{
+	background-color: #F189DF;
+	border:0;
+	border-radius: 20px;
+	font-size: 10px;
+	font-weight: 800;
+	color: #230871;
+}
+
+.btn-shop-now{
+    margin-left: 0px;
+    margin-top: 8px;
+}
+
+div.featured-items{
+	margin-top: 13px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+div.colours-of-month-parent{
+	width:375px;
+}
+
+h1.colours-title{
+    font-size: 24px;
+	color: #230871;
+	font-weight:800;
+	padding-left: 0;
+	margin-top: 00px;
+	margin-bottom: 0px;
+	margin-left: 70px;
+    margin-right: 70px;
+    width: 270px;
+}
+
+div.colours-of-month-boxes{
+	padding-left: 0;
+	margin-top: 10px;
+	margin-left: 0;
+	background-image: url(img/colours-month-180pp.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
+    background-position-y: center;
+    background-size: 90%;
+    width:414px;
+    height:223px;
+}
+
+div.col-xs-12.mix-n-matcher{
+	padding-left: 0;
+	margin-top: 17px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-image: url(img/pic-bag-shop-shapes-xs.jpg);
+	background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+    width:414px;
+    height:232px;
+}
+
+div.mixer-texts{
+	padding-top: 22px;
+	padding-left: 175px;
+    height: 136px;	
+}
+
+
+h1.mixer-title{
+    font-size: 18px;
+	color: #F189DF;
+	font-weight:800;
+	margin-top: 0px;
+	padding-bottom: 16px;
+	margin-bottom: 0px;
+	width:160px;
+	text-shadow: 1px 1.1px #230871;
+}
+p.mixer-para{
+	width:160px;
+	color: white;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	font-size: 15px;
+	font-weight: 400;
+	padding-left: 0px;
+	text-shadow: 1px 1.1px #230871;
+}
+
+p.mixer-para2{
+	margin-top: 10px;
+}
+
+p a.btn.btn-primary.btn-lg.btn-mixer{
+	background-color: #F189DF;
+	border:0;
+	border-radius: 20px;
+	font-size: 10px;
+	font-weight: 800;
+	color: #230871;
+	width: 60px;
+    border-left-width: 0px;
+    padding-left: 15px;
+    border-right-width: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+}
+
+br.btn-shop-now-gap{
+	display: none;
+}
+
+br.btn-mixer-gap.btn-mixer-gap-xs{
+	display: none;
+}
+
+.jumbotron-about{
+	background-image: url(img/christy-jump-xs-100.jpg);
+	background-position-x: center;
+    background-position-y: top;
+    background-size: 100%;
+    height: 422px;
+    width: 414px;
+    margin: 0 auto;
+    margin-top: 110px;
+    padding-top: 18px;
+    padding-bottom: 0px
+}
+
+div.about-texts{
+	padding-top: 37px;
+	padding-left: 5px;	
+	width: 294px;
+}
+
+h1.about-title{
+    font-size: 18px;
+	color: #F189DF;
+	font-weight:800;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	width: 160px;
+	text-shadow: 1px 1.1px #230871;
+}
+
+p.about-para{
+	display: none;
+}
+
+p.about-para-xs{
+	width: 200px;
+	color: #230871;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+	font-size: 15px;
+	font-weight: 400;
+	padding-left: 0px;
+	text-shadow: 1px 1.1px #eee;
+}
+
+.jumbotron-mission{
+	background-image: url(img/hazael-bag-balance.jpg);
+	background-position-x: right;
+    background-position-y: top;
+    background-size: 140%;
+    height:352px;
+    width: 414px;
+    margin: 0 auto;
+}
+
+div.mission-texts{
+	padding-top:8px;
+	padding-left: 183px;	
+	width: 294px;
+}
+
+h1.mission-title{
+    font-size: 18px;
+	color: #230871;
+	font-weight:800;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	width: 160px;
+	text-shadow: 1px 1.1px #eee;
+}
+
+p.mission-para-xs{
+	width:200px;
+	color: #230871;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+	font-size: 15px;
+	font-weight: 400;
+	padding-left: 0px;
+	text-shadow: 1px 1.1px #eee;
+}
+
+p.mission-para{
+	display: none;
+}
+
+.jumbotron-sustainability{
+	background-image: url(img/scenery-xs-100.jpg);
+	background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+    height:314px;
+    width: 414px; 
+    margin: 0 auto;
+}
+
+div.sustainability-texts{
+	padding-top: 8px;
+	padding-left: 5px;	
+	width: 294px;
+}
+
+h1.sustainability-title{
+    font-size: 18px;
+	color: #F189DF;
+	font-weight:800;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	width: 160px;
+	text-shadow: 1px 1.1px #eee;
+}
+
+p.sustainability-para-xs{
+	width: 387px;
+	color: #230871;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+	font-size: 15px;
+	font-weight: 400;
+	padding-left: 0px;
+	text-shadow: 1px 1.1px #eee;
+}
+
+p.sustainability-para{
+	display: none;
+}
+
+ol.carousel-indicators{
+	visibility: hidden;
+}
+
+div.browse-book{
+	padding: 0 !important; 
+	margin-top: 108px;
+	
+}
+
+div.item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.item:before {
+  content: "";
+  display: block;
+  padding-bottom: 56.25%; /* example */
+}
+
+div.container-fluid.carousel-lg{
+	display: none;
+}
+
+div.container-fluid.carousel-xs{
+	display: none;
+}
+
+}
+
+@media (max-width: 376px){ /*this is the start of max-width 992px aka XS forms*/
+
+body {
+	color: #230871;
+	font-family: Nunito Sans, sans-serif;
+}
+
+.navbar-brand>img {
+	width: 90px;
+	padding-left: 0px;
+	padding-bottom: 80px;
+}
+
+div.navbar{
+	width:375px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+div.row.resize-xs{
+	width:375px;
+}
+
+element.style {
+    bottom: 65px;
+}
+
+.navbar-default .navbar-nav>li>a.help-xs {
+	padding-left: 60px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+	color: #F189DF;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.navbar-default .navbar-nav>li>a.help-xs:hover{
+	color: grey;
+	text-decoration-line:underline;
+	font-style: italic;
+}
+
+.help-icon{
+	width: 15px;
+    padding-left: 3px;
+}
+
+.jumbotron-landing{
+	background-image: url(img/hazael-bag-sit-xs.jpg);
+	background-position-x: 0px;
+    background-position-y: -40px;
+    background-size: 300%;
+    height:500px; 
+    margin: 0 auto;
+}
+
+.jumbotron-landing.bag-feature{
+	background-image: url(img/sherman-hill-xs.jpg);
+	background-position-x: -340px;
+    background-position-y: -850px;
+    background-size: 270%;
+    height:350px; 
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+div .container-fluid.jumbo-cover-xs{
+	padding-left: 38px;
+}
+
+div .container-fluid.jumbo-cover-xs2{
+    padding-left: 150px;
+    padding-right: 33px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: transparent;
+}
+
+.navbar-default{
+	background-color: #fff;
+}
+
+div.landing-texts{
+	padding-top:160px;	
+}
+
+div.landing-texts2{
+	padding-top:22px;	
+}
+
+
+h1.landing-title{
+    font-size: 27px;
+	color: #F189DF;
+	font-weight:800;
+	padding-bottom: 5px;
+	padding-left: 0;
+	width:215px;
+}
+p.landing-para{
+	color: white;
+	padding-bottom: 5px;
+	font-size: 15px;
+	font-weight: 400;
+	padding-left: 0;
+
+}
+
+h1.bags-title{
+    font-size: 27px;
+	color: #230871;
+	font-weight:800;
+	padding-bottom: 5px;
+	padding-left: 0;
+	width:215px;
+}
+p.bags-para{
+	color: #F189DF;
+	padding-bottom: 5px;
+	font-size: 15px;
+	font-weight: 400;
+	padding-left: 0;
+
+}
+
+p a.btn.btn-primary.btn-lg.btn-learn{
+	background-color: #F189DF;
+	border:0;
+	border-radius: 40px;
+	font-size: 10px;
+	font-weight: 800;
+	color: #230871;
+}
+
+p a.btn.btn-primary.btn-lg.btn-read{
+	background-color: #230871;
+	border:0;
+	border-radius: 40px;
+	font-size: 10px;
+	font-weight: 800;
+	color: white;
+}
+
+a.xs-center{
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-bottom: 15px;
+}
+
+li a.divider{
+	display:none;
+}
+
+img.hide-xs{
+	display:none;
+}
+
+div.navbar-header{
+	height: 109px;
+}
+
+.navbar-toggle.collapsed{
+	margin-top: 27px;
+}
+
+.navbar-toggle{
+	margin-top: 37px;
+	margin-right: 30px;
+}
+
+.navbar-form{
+    padding: 0;
+    margin-top: 0;
+}
+
+ul.pt50.nav.navbar-nav{
+    padding-top: 0px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+div.form-group{
+	width:168px;
+}
+
+.form-control.search-btn{
+	text-rendering: auto;
+  	text-align: center;
+    display: block;
+    width: 305px;
+    height: 34px;
+    padding: 0;
+    margin-right: 0;
+    font-size: 18px;
+    line-height: 0;
+    color: #230871;
+    background-color: transparent;
+    background-image: none;
+    border: 0px;
+    border-color: #230871;
+    border-radius: 40px;
+    -webkit-box-shadow: inset 1 1px -0.5px rgba(0,0,0,.075);
+    box-shadow: inset 1 1px -0.5px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-control.search-btn::placeholder{
+	color: #230871;
+	opacity:0.35;
+}
+
+.pt50.navbar-form.navbar-left.col-lg-2.col-xs-12{
+	padding-left:35px;
+}
+
+.navbar-custom {
+    border: 0px solid #ccc;
+    border-radius: 0px
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #230871;
+	font-size: 18px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #F189DF;
+}
+
+.navbar-default .navbar-nav>li>a.view-cart:hover{
+	color: #F189DF;
+	text-decoration-line:underline;
+}
+
+li img.cart-btn{
+	display: none;
+}
+
+li a.view-cart{
+	padding-left: 60px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+	font-weight: bold;
+}
+
+form.pt50.navbar-form.navbar-left.col-xs-7{
+	margin-left: 65px;
+}
+
+footer{
+	display: none;
+}
+
+.col-lg-1,.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12{
+	padding-left:0;
+	padding-right: 0;
+}
+
+
+.jumbotron-shop{
+	background-image: url(img/hazael-bag-sit.jpg);
+	background-repeat: no-repeat;
+	background-position-x: center;
+    background-position-y: 80px;
+    background-size: 140%;
+    width: 375px;
+    height:375px; 
+    margin: 0 auto;
+}
+
+li .shop-head{
+	text-decoration-line: underline;
+	font-weight:bold;
+}
+
+li .about-head{
+	text-decoration-line: underline;
+	font-weight:bold;
+}
+
+li .browse-head{
+	text-decoration-line: underline;
+	font-weight:bold;
+}
+
+div.shop-texts{
+	padding-top:132px;
+	padding-left: 130px;
+	height:550px;	
+}
+
+
+h1.shop-title{
+    font-size: 18px;
+	color: #F189DF;
+	font-weight:800;
+	margin-top: 0px;
+	width: 190px;
+	text-shadow: 1px 1.1px #230871;
+}
+p.shop-para{
+	width:200px;
+	color: white;
+	padding-bottom: 5px;
+	margin-bottom: 0;
+	font-size: 15px;
+	font-weight: 400;
+	padding-left: 0px;
+}
+
+p a.btn.btn-primary.btn-lg.btn-shop-now{
+	background-color: #F189DF;
+	border:0;
+	border-radius: 20px;
+	font-size: 10px;
+	font-weight: 800;
+	color: #230871;
+}
+
+.btn-shop-now{
+    margin-left: 0px;
+    margin-top: 8px;
+}
+
+div.featured-items{
+	margin-top: 13px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+div.colours-of-month-parent{
+	width:375px;
+}
+
+h1.colours-title{
+    font-size: 24px;
+	color: #230871;
+	font-weight:800;
+	padding-left: 0;
+	margin-top: 00px;
+	margin-bottom: 0px;
+	margin-left: 70px;
+    margin-right: 70px;
+    width: 270px;
+}
+
+div.colours-of-month-boxes{
+	padding-left: 0;
+	margin-top: 10px;
+	margin-left: 0;
+	background-image: url(img/colours-month-180pp.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
+    background-position-y: center;
+    background-size: 90%;
+    width:375px;
+    height:223px;
+}
+
+div.col-xs-12.mix-n-matcher{
+	padding-left: 0;
+	margin-top: 17px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-image: url(img/pic-bag-shop-shapes-xs.jpg);
+	background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+    width:375px;
+    height:232px;
+}
+
+div.mixer-texts{
+	padding-top: 22px;
+	padding-left: 175px;
+    height: 136px;	
+}
+
+
+h1.mixer-title{
+    font-size: 18px;
+	color: #F189DF;
+	font-weight:800;
+	margin-top: 0px;
+	padding-bottom: 16px;
+	margin-bottom: 0px;
+	width:160px;
+	text-shadow: 1px 1.1px #230871;
+}
+p.mixer-para{
+	width:160px;
+	color: white;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	font-size: 15px;
+	font-weight: 400;
+	padding-left: 0px;
+	text-shadow: 1px 1.1px #230871;
+}
+
+p.mixer-para2{
+	margin-top: 10px;
+}
+
+p a.btn.btn-primary.btn-lg.btn-mixer{
+	background-color: #F189DF;
+	border:0;
+	border-radius: 20px;
+	font-size: 10px;
+	font-weight: 800;
+	color: #230871;
+	width: 60px;
+    border-left-width: 0px;
+    padding-left: 15px;
+    border-right-width: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+}
+
+br.btn-shop-now-gap{
+	display: none;
+}
+
+br.btn-mixer-gap.btn-mixer-gap-xs{
+	display: none;
+}
+
+.jumbotron-about{
+	background-image: url(img/christy-jump-xs-100.jpg);
+	background-position-x: center;
+    background-position-y: top;
+    background-size: 100%;
+    height: 393px;
+    width: 375px;
+    margin: 0 auto;
+    margin-top: 110px;
+    padding-top: 18px;
+    padding-bottom: 0px
+}
+
+div.about-texts{
+	padding-top: 37px;
+	padding-left: 5px;	
+	width: 294px;
+}
+
+h1.about-title{
+    font-size: 18px;
+	color: #F189DF;
+	font-weight:800;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	width: 160px;
+	text-shadow: 1px 1.1px #230871;
+}
+
+p.about-para{
+	display: none;
+}
+
+p.about-para-xs{
+	width: 200px;
+	color: #230871;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+	font-size: 15px;
+	font-weight: 400;
+	padding-left: 0px;
+	text-shadow: 1px 1.1px #eee;
+}
+
+.jumbotron-mission{
+	background-image: url(img/hazael-bag-balance.jpg);
+	background-position-x: -180px;
+    background-position-y: top;
+    background-size: 165%;
+    height:412px;
+    width: 375px;
+    margin: 0 auto;
+}
+
+div.mission-texts{
+	padding-top:8px;
+	padding-left: 183px;	
+	width: 294px;
+}
+
+h1.mission-title{
+    font-size: 18px;
+	color: #230871;
+	font-weight:800;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	width: 160px;
+	text-shadow: 1px 1.1px #eee;
+}
+
+p.mission-para-xs{
+	width:170px;
+	color: #230871;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+	font-size: 15px;
+	font-weight: 400;
+	padding-left: 0px;
+	text-shadow: 1px 1.1px #eee;
+}
+
+p.mission-para{
+	display: none;
+}
+
+.jumbotron-sustainability{
+	background-image: url(img/scenery-xs-100.jpg);
+	background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+    height:314px;
+    width: 375px; 
+    margin: 0 auto;
+}
+
+div.sustainability-texts{
+	padding-top: 0px;
+	padding-left: 5px;	
+	width: 294px;
+}
+
+h1.sustainability-title{
+    font-size: 18px;
+	color: #F189DF;
+	font-weight:800;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	width: 160px;
+	text-shadow: 1px 1.1px #eee;
+}
+
+p.sustainability-para-xs{
+	width: 345px;
+	color: #230871;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+	font-size: 15px;
+	font-weight: 400;
+	padding-left: 0px;
+	text-shadow: 1px 1.1px #eee;
+}
+
+p.sustainability-para{
+	display: none;
+}
+
+div.carousel-lg{
+	display: none;
+}
+
+div.carousel-s{
+	display: none;
+}
+
+}
